@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D9A2A83B2CB7871E0006550E /* Exceptions for "sample-logger" folder in "sample-logger" target */ = {
+		D9A2A8692CB78E0B0006550E /* Exceptions for "sample-logger" folder in "sample-logger" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D9A2A8152CB7871C0006550E /* sample-logger */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D9A2A83B2CB7871E0006550E /* Exceptions for "sample-logger" folder in "sample-logger" target */,
-			);
-			path = "sample-logger";
-			sourceTree = "<group>";
-		};
 		D9A2A82C2CB7871E0006550E /* sample-loggerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "sample-loggerTests";
@@ -56,6 +48,14 @@
 		D9A2A8362CB7871E0006550E /* sample-loggerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "sample-loggerUITests";
+			sourceTree = "<group>";
+		};
+		D9A2A8622CB78E0B0006550E /* sample-logger */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D9A2A8692CB78E0B0006550E /* Exceptions for "sample-logger" folder in "sample-logger" target */,
+			);
+			path = "sample-logger";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		D9A2A80A2CB7871C0006550E = {
 			isa = PBXGroup;
 			children = (
-				D9A2A8152CB7871C0006550E /* sample-logger */,
+				D9A2A8622CB78E0B0006550E /* sample-logger */,
 				D9A2A82C2CB7871E0006550E /* sample-loggerTests */,
 				D9A2A8362CB7871E0006550E /* sample-loggerUITests */,
 				D9A2A8142CB7871C0006550E /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D9A2A8152CB7871C0006550E /* sample-logger */,
+				D9A2A8622CB78E0B0006550E /* sample-logger */,
 			);
 			name = "sample-logger";
 			packageProductDependencies = (
@@ -289,6 +289,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5F4VCR65B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "sample-logger/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5F4VCR65B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "sample-logger/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -388,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -445,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
